@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlightSuite]">
+  <test name="FlightTests">
+    <classes>
+      <class name="com.ryanair.tests.FlightsTests"/>
+    </classes>
+  </test> <!-- FlightTests -->
+  <test name="FlightTests(failed)">
+    <classes>
+      <class name="com.ryanair.tests.FlightsTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="testFlights"/>
+        </methods>
+      </class> <!-- com.ryanair.tests.FlightsTests -->
+    </classes>
+  </test> <!-- FlightTests(failed) -->
+</suite> <!-- Failed suite [FlightSuite] -->

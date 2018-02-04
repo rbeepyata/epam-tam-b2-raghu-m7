@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FlightSuite" duration-ms="32937" started-at="2018-02-04T16:03:00Z" finished-at="2018-02-04T16:03:32Z">
+    <groups>
+    </groups>
+    <test name="FlightTests" duration-ms="32937" started-at="2018-02-04T16:03:00Z" finished-at="2018-02-04T16:03:32Z">
+      <class name="com.ryanair.tests.FlightsTests">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ryanair.tests.FlightsTests@1f59a598]" name="beforeClass" is-config="true" duration-ms="4228" started-at="2018-02-04T21:33:00Z" finished-at="2018-02-04T21:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="testFlights()[pri:0, instance:com.ryanair.tests.FlightsTests@1f59a598]" name="testFlights" duration-ms="26671" started-at="2018-02-04T21:33:04Z" finished-at="2018-02-04T21:33:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.ryanair.tests.FlightsTests.testFlights(FlightsTests.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlights -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ryanair.tests.FlightsTests@1f59a598]" name="afterTest" is-config="true" duration-ms="1567" started-at="2018-02-04T21:33:31Z" finished-at="2018-02-04T21:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ryanair.tests.FlightsTests -->
+    </test> <!-- FlightTests -->
+  </suite> <!-- FlightSuite -->
+</testng-results>

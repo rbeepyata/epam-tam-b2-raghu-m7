@@ -1,0 +1,47 @@
+2018-02-04 21:33:00,074 INFO  [main] Launching the Chrome browser...
+2018-02-04 21:33:00,083 DEBUG driver.DriverFactory [main] Initializing driver for Chrome...
+2018-02-04 21:33:00,086 DEBUG driver.Chrome [main] Setting system property for chrome driver to lib//driver//chromedriver.exe
+2018-02-04 21:33:03,130 DEBUG driver.Driver [main] Driver Singleton initialized.
+2018-02-04 21:33:03,131 DEBUG  [main] Initializing BasePage with WebDriver context...
+2018-02-04 21:33:03,134 DEBUG  [main] Setting WebDriver context to Decorated Element...
+2018-02-04 21:33:03,134 INFO  [main] Maximizing the browser...
+2018-02-04 21:33:04,290 INFO tests.FlightsTests [main] Starting Flights test...
+2018-02-04 21:33:04,296 INFO pages.HomePage [main] Lauching Ryanair home page...
+2018-02-04 21:33:12,695 INFO pages.HomePage [main] Selecting From Country... Belgium
+2018-02-04 21:33:12,700 INFO  [main] Clicking on the element located by [By.xpath: (//*[@name='departureAirportName'])[1]]
+2018-02-04 21:33:13,695 INFO pages.HomePage [main] Selecting From Airport...Brussels Charleroi
+2018-02-04 21:33:14,225 INFO pages.HomePage [main] Selecting To Country: United Kingdom
+2018-02-04 21:33:14,459 INFO pages.HomePage [main] Selecting To Airport:Manchester
+2018-02-04 21:33:15,257 INFO pages.HomePage [main] Selecting... 17-JULY
+2018-02-04 21:33:17,635 INFO pages.HomePage [main] Selecting... 29-AUGUST
+2018-02-04 21:33:19,190 INFO  [main] Clicking on the element located by [By.xpath: //div[@class='dropdown-handle']]
+2018-02-04 21:33:19,913 INFO  [main] Clicking on the element located by [By.xpath: //button/span[text()="Let's go! "]]
+2018-02-04 21:33:20,208 INFO pages.SearchResultPage [main] Verify if search results page for flights is displayed...
+2018-02-04 21:33:30,314 INFO pages.SearchResultPage [main] Printing Search details...
+2018-02-04 21:33:30,481 INFO pages.SearchResultPage [main] 
+To Flight
+2018-02-04 21:33:30,506 INFO pages.SearchResultPage [main] 
+Flight Number:FR 3239
+2018-02-04 21:33:30,530 INFO pages.SearchResultPage [main] 	Start Time:07:00 Brussels Charleroi
+2018-02-04 21:33:30,555 INFO pages.SearchResultPage [main] 	End Time:07:25 Manchester
+2018-02-04 21:33:30,578 INFO pages.SearchResultPage [main] 	FlightTime:(1 hr 25 mins)
+2018-02-04 21:33:30,605 INFO pages.SearchResultPage [main] 
+Flight Number:FR 3223
+2018-02-04 21:33:30,632 INFO pages.SearchResultPage [main] 	Start Time:21:55 Brussels Charleroi
+2018-02-04 21:33:30,661 INFO pages.SearchResultPage [main] 	End Time:22:20 Manchester
+2018-02-04 21:33:30,680 INFO pages.SearchResultPage [main] 	FlightTime:(1 hr 25 mins)
+2018-02-04 21:33:30,794 INFO pages.SearchResultPage [main] 
+Return Flight
+2018-02-04 21:33:30,814 INFO pages.SearchResultPage [main] 
+Flight Number:FR 3238
+2018-02-04 21:33:30,834 INFO pages.SearchResultPage [main] 	Start Time:07:50 Manchester
+2018-02-04 21:33:30,855 INFO pages.SearchResultPage [main] 	End Time:10:15 Brussels Charleroi
+2018-02-04 21:33:30,874 INFO pages.SearchResultPage [main] 	FlightTime:(1 hr 25 mins)
+2018-02-04 21:33:30,893 INFO pages.SearchResultPage [main] 
+Flight Number:FR 3222
+2018-02-04 21:33:30,914 INFO pages.SearchResultPage [main] 	Start Time:19:05 Manchester
+2018-02-04 21:33:30,933 INFO pages.SearchResultPage [main] 	End Time:21:30 Brussels Charleroi
+2018-02-04 21:33:30,955 INFO pages.SearchResultPage [main] 	FlightTime:(1 hr 25 mins)
+2018-02-04 21:33:30,955 INFO tests.FlightsTests [main] Failing the test for demo purpose
+2018-02-04 21:33:30,960 DEBUG utilities.ScreenshotUtil [main] Taking screenshot...
+2018-02-04 21:33:31,404 DEBUG driver.ScreenshotOnFailListener [main] Screenshot screenshot2018-02-04-21-33-30.jpgsaved.
